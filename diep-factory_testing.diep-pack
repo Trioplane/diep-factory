@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "name": "diep-factory testing",
+  "author": "trplnr",
+  "tanks": [
+    {
+      "id": 100005,
+      "name": "{{TANK 1}}",
+      "minLevel": 1,
+      "body": {
+        "sides": 0
+      },
+      "helpText": "TIP (OPTIONAL)",
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.049999999999999996
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "barrels": [
+        {
+          "bulletType": "bullet",
+          "projectile": 0
+        }
+      ]
+    },
+    {
+      "id": 100002,
+      "name": "{{TANK 2}}",
+      "minLevel": 1,
+      "body": {
+        "sides": 0
+      },
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.049999999999999996
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "barrels": [
+        {
+          "bulletType": "bullet",
+          "projectile": 0
+        }
+      ]
+    }
+  ]
+}
