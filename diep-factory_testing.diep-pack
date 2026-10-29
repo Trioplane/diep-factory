@@ -4,7 +4,7 @@
   "author": "trplnr",
   "tanks": [
     {
-      "id": 100005,
+      "id": 100001,
       "name": "{{TANK 1}}",
       "minLevel": 1,
       "body": {
@@ -73,6 +73,88 @@
           "projectile": 0
         }
       ]
+    },
+    {
+      "id": 100003,
+      "name": "Boss 1",
+      "minLevel": 1,
+      "body": {
+        "sides": 0,
+        "color": 17
+      },
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.049999999999999996
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "editor": {
+        "boss": true
+      },
+      "barrels": [
+        {
+          "bulletType": "bullet",
+          "projectile": 0
+        }
+      ]
+    }
+  ],
+  "shapes": [
+    {
+      "id": "abc123",
+      "name": "Shape 1",
+      "sides": 4,
+      "size": 55,
+      "maxHealth": 100,
+      "damageOnTouch": 2,
+      "knockbackOnTouch": 8,
+      "color": "#ffe869",
+      "ai": {
+        "floatSpeed": 0.1,
+        "aggressiveCrashSpeed": 2.6
+      },
+      "spawn": {
+        "radiusMin": 0.2,
+        "densityMultiplier": 0.2
+      }
+    }
+  ],
+  "bosses": [
+    {
+      "id": 1,
+      "tank": 100003,
+      "name": "Boss 1",
+      "statLevels": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        0
+      ],
+      "ai": {
+        "looksForward": true,
+        "aggressiveCrashRadius": 1500,
+        "aggressiveCrashSpeed": 0.8,
+        "wanderWhileFighting": true
+      }
     }
   ]
 }
