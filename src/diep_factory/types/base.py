@@ -10,6 +10,6 @@ class DiepPackModel(BaseModel):
   """Format version of the diep pack"""
   name: str
   author: str
-  tanks: TankModel
-  shapes: ShapeModel
-  bosses: BossModel
+  tanks: list[TankModel]
+  shapes: list[ShapeModel]
+  bosses: list[BossModel]
