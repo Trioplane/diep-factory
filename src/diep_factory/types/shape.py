@@ -36,32 +36,32 @@ class ShapeModel(BaseModel):
   id: str
   """⚠ This ID gets transformed by diep to follow the format `custom_shape_{x}` in ascending index order."""
   
-  name: str
+  name: str | None = None
 
-  sides: Annotated[int, Field(gt=0)]
+  sides: Annotated[int | None, Field(gt=0)] = None
 
-  size: Annotated[float, Field(gt=0,le=352)]
+  size: Annotated[float | None, Field(gt=0,le=352)] = None
   """Max shape size is 5 squares in radius."""
 
-  maxHealth: Annotated[float, Field(gt=0,le=1000000)]
+  maxHealth: Annotated[float | None, Field(gt=0,le=1000000)] = None
 
-  xpBounty: Annotated[float, Field(ge=0,le=10000000)]
+  xpBounty: Annotated[float | None, Field(ge=0,le=10000000)] = None
   """The score given when this shape is killed."""
 
-  damageOnTouch: Annotated[float, Field(ge=0,le=1000)]
+  damageOnTouch: Annotated[float | None, Field(ge=0,le=1000)] = None
   """The body damage of the shape."""
 
-  knockbackOnTouch: Annotated[float, Field(ge=0,le=1000)]
+  knockbackOnTouch: Annotated[float | None, Field(ge=0,le=1000)] = None
   """How hard it shoves what it hits."""
 
-  knockbackMultiplier: Annotated[float, Field(ge=0,le=3)]
+  knockbackMultiplier: Annotated[float | None, Field(ge=0,le=3)] = None
   """How far a hit moves it."""
 
-  color: str
+  color: str | None = None
   """A hex RGB code with the leading hashtag."""
 
-  ai: ShapeAIModel
+  ai: ShapeAIModel | None = None
   """The movement of the shape."""
 
-  spawn: ShapeSpawnModel
+  spawn: ShapeSpawnModel | None = None
   """The spawning rules of the shape."""
