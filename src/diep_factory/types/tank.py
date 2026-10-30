@@ -11,7 +11,7 @@ from diep_factory.types.shared import (
 
 
 class TankModel(BaseModel):
-  id: Annotated[int, Field(gt=100000)]
+  id: Annotated[int | None, Field(gt=100000)] = None
   """Custom tank IDs start at 100001, anything below is reserved for special use by the game."""
 
   name: str | None = None

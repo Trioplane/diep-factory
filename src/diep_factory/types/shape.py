@@ -33,7 +33,7 @@ class ShapeSpawnModel(BaseModel):
   """The spawn weight of the shape."""
 
 class ShapeModel(BaseModel):
-  id: str
+  id: str | None = None
   """⚠ This ID gets transformed by diep to follow the format `custom_shape_{x}` in ascending index order."""
   
   name: str | None = None
