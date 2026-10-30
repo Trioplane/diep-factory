@@ -1,3 +1,4 @@
+import math
 from typing import Annotated, Literal
 
 from pydantic import BaseModel, Field
@@ -43,12 +44,12 @@ class BarrelModel(BaseModel):
 
   heightMultiplier: Annotated[float | None, Field(ge=0.1,le=2.5)] = None
   """
-    Width of the gun.
+    Width of the barrel.
 
     Equivalent to the 'Width at base' setting in the editor.
   """
 
-  muzzleScale: Annotated[float | None, Field(ge=0.1,le=2.5)] = None
+  muzzleScale: Annotated[float | None, Field(ge=0.1/2.5,le=2.5/0.1)] = None
   """
     Width of the muzzle.
 
@@ -56,6 +57,29 @@ class BarrelModel(BaseModel):
     - Calculated as `tip / base`.
   """
 
+  angle: Annotated[float | None, Field(ge=-math.pi, le=math.pi)] = None
+  """
+    Angle of the barrel in radians.
+
+    Ranges from -π to π
+  """
+
+  offset: Annotated[float | None, Field(ge=-1000,le=1000)] = None
+  """
+    Sidewards offset of the barrel.
+  """
+
+  startDistance: Annotated[float | None, Field(ge=-1000,le=1000)] = None
+  """
+    Forwards offset of the barrel.
+  """
+
   bulletType: Literal[ProjectileType, "none"] | None = None
+  """
+    Type of bullet it shoots, can be `none`
+  """
   
   projectile: Annotated[int | None, Field(ge=0)] = None
+  """
+    Index pointing to the projectile it shoots in the projectiles list.
+  """

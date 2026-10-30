@@ -1,3 +1,4 @@
+from diep_factory.barrel import Barrel
 import rich
 from pydantic import ValidationError
 from typing import Self
@@ -68,22 +69,3 @@ class Tank:
     def add_barrels(self, *barrels: Barrel) -> Self:
         self.barrels += barrels
         return self
-
-class Barrel:
-    def __init__(
-        self, 
-        length: float,
-        width_at_base: float,
-        width_at_tip: float | None = None
-    ):
-        self.length = length
-        self.width_at_base = width_at_base
-        self.width_at_tip = width_at_tip if width_at_tip is not None else width_at_base
-
-    def build(self) -> BarrelModel:
-        """Builds the barrel and returns it as a Pydantic Model."""
-        return BarrelModel(
-            distance = self.length,
-            heightMultiplier = self.width_at_base,
-            muzzleScale = self.width_at_tip / self.width_at_base
-        )
