@@ -56,6 +56,22 @@ class DiepPack:
 
         return diep_pack.model_dump_json(indent=indent, exclude_none=True)
 
+    @staticmethod
+    def from_json(diep_pack_json: str) -> DiepPack:
+        diep_pack_model = DiepPackModel.model_validate_json(diep_pack_json)
+
+        diep_pack = DiepPack(
+            name = diep_pack_model.name,
+            author = diep_pack_model.author
+        )
+
+        if diep_pack_model.tanks is not None:
+            diep_pack.add_tanks(*[Tank.from_model(tank) for tank in diep_pack_model.tanks])
+
+        rich.print_json(diep_pack.build())
+
+        return diep_pack
+
     def add_tanks(self, *tanks: Tank) -> Self:
         self.tanks += tanks
         return self

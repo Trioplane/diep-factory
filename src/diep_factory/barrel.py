@@ -3,6 +3,7 @@ from typing import Self
 
 from diep_factory.types.shared import BarrelModel
 
+# TODO: add defaults
 
 class Barrel:
   def __init__(
@@ -15,7 +16,7 @@ class Barrel:
     offset: float | None = None
   ):
     self.set_length(length)
-    self.set_width_at_base(width_at_base)
+    self.set_width_at_base(width_at_base if width_at_base is not None else 1)
     self.set_width_at_tip(width_at_tip)
     self.set_angle(angle)
     self.set_gap(gap)
@@ -35,6 +36,21 @@ class Barrel:
       angle = self.angle,
       startDistance = self.gap,
       offset = self.offset
+    )
+
+  @staticmethod
+  def from_model(barrel_model: BarrelModel) -> Barrel:
+    return Barrel(
+      length = barrel_model.distance,
+      width_at_base = barrel_model.heightMultiplier,
+      width_at_tip = (
+        (barrel_model.muzzleScale * barrel_model.heightMultiplier)
+        if barrel_model.muzzleScale is not None and barrel_model.heightMultiplier is not None
+        else None
+      ),
+      angle = math.degrees(barrel_model.angle) if barrel_model.angle is not None else None,
+      gap = barrel_model.startDistance,
+      offset = barrel_model.offset
     )
 
   def set_length(self, length: float | None) -> Self:

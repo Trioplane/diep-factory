@@ -12,6 +12,7 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         }
       ]
@@ -21,10 +22,12 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         }
       ]
@@ -34,14 +37,17 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         }
       ]
@@ -51,18 +57,22 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         }
       ]
@@ -72,22 +82,27 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         }
       ]
@@ -97,26 +112,32 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         }
       ]
@@ -126,30 +147,37 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         }
       ]
@@ -159,34 +187,42 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         }
       ]
@@ -196,38 +232,47 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         }
       ]
@@ -237,42 +282,52 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         }
       ]
@@ -282,46 +337,57 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         }
       ]
@@ -331,50 +397,62 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         }
       ]
@@ -384,54 +462,67 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         }
       ]
@@ -441,58 +532,72 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         }
       ]
@@ -502,62 +607,77 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         }
       ]
@@ -567,66 +687,82 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         }
       ]
@@ -636,70 +772,87 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         }
       ]
@@ -709,74 +862,92 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         }
       ]
@@ -786,78 +957,97 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         }
       ]
@@ -867,82 +1057,102 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         }
       ]
@@ -952,86 +1162,107 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.4499658401183664
         }
       ]
@@ -1041,90 +1272,112 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.208304866765305
         }
       ]
@@ -1134,94 +1387,117 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.9666438934122435
         }
       ]
@@ -1231,98 +1507,122 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.9666438934122435
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.7249829200591832
         }
       ]
@@ -1332,102 +1632,127 @@
       "barrels": [
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.0
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.2416609733530609
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.4833219467061218
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 0.9666438934122441
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.6582707068836715
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": 2.8999316802367328
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -3.141592653589793
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.899931680236732
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.65827070688367
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.41660973353061
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -2.1749487601775495
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.9332877868244882
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.6916268134714267
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.4499658401183664
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -1.208304866765305
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.9666438934122435
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.7249829200591832
         },
         {
           "distance": 80.0,
+          "heightMultiplier": 1.0,
           "angle": -0.48332194670612083
         }
       ]

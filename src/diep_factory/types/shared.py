@@ -1,7 +1,7 @@
 import math
 from typing import Annotated, Literal
 
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, Field
 
 
 class TankBodyModel(BaseModel):
@@ -57,7 +57,7 @@ class BarrelModel(BaseModel):
     - Calculated as `tip / base`.
   """
 
-  angle: Annotated[float | None, Field(ge=-math.pi, le=math.pi)] = None
+  angle: Annotated[float | None, Field(ge=-math.tau, le=math.tau)] = None
   """
     Angle of the barrel in radians.
 
@@ -79,7 +79,7 @@ class BarrelModel(BaseModel):
     Type of bullet it shoots, can be `none`
   """
   
-  projectile: Annotated[int | None, Field(ge=0)] = None
+  projectile: Annotated[int | None, Field(ge=-1)] = None
   """
     Index pointing to the projectile it shoots in the projectiles list.
   """

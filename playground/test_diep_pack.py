@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from diep_factory import Barrel, DiepPack, Tank
 
 MyDiepPack = DiepPack(name="my diep pack", author="Generated with diep-factory")
@@ -19,3 +20,14 @@ output_path = Path(__file__).resolve().parent / "output.diep-pack"
 
 output_path.touch()
 output_path.write_text(MyDiepPack.build(indent=2), encoding='utf8')
+
+input_path = Path(__file__).resolve().parent / "input.diep-pack"
+TestDiepPack = DiepPack.from_json(input_path.read_text())
+
+for tank in TestDiepPack.tanks:
+  for barrel in tank.barrels:
+    barrel.set_length(
+      (barrel.length if barrel.length is not None else 0) + 100
+    )
+
+print(TestDiepPack.build())
