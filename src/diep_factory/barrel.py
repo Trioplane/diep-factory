@@ -7,8 +7,8 @@ from diep_factory.types.shared import BarrelModel
 class Barrel:
   def __init__(
     self, 
-    length: float,
-    width_at_base: float,
+    length: float | None = None,
+    width_at_base: float | None = None,
     width_at_tip: float | None = None,
     angle: float | None = None,
     gap: float | None = None,
@@ -25,24 +25,28 @@ class Barrel:
   def build(self) -> BarrelModel:
     """Builds the barrel and returns it as a Pydantic Model."""
     return BarrelModel(
-      distance = self.distance,
-      heightMultiplier = self.heightMultiplier,
-      muzzleScale = self.muzzleScale,
+      distance = self.length,
+      heightMultiplier = self.width_at_base,
+      muzzleScale = (
+        (self.width_at_tip / self.width_at_base) 
+        if self.width_at_tip is not None and self.width_at_base is not None 
+        else None
+      ),
       angle = self.angle,
-      startDistance = self.startDistance,
+      startDistance = self.gap,
       offset = self.offset
     )
 
-  def set_length(self, length: float) -> Self:
-    self.distance = length
+  def set_length(self, length: float | None) -> Self:
+    self.length = length
     return self
 
-  def set_width_at_base(self, width_at_base: float) -> Self:
-    self.heightMultiplier = width_at_base
+  def set_width_at_base(self, width_at_base: float | None) -> Self:
+    self.width_at_base = width_at_base
     return self
 
   def set_width_at_tip(self, width_at_tip: float | None) -> Self:
-    self.muzzleScale = (width_at_tip / self.heightMultiplier) if width_at_tip is not None else None
+    self.width_at_tip = width_at_tip
     return self
 
   def set_angle(self, angle: float | None, radians: bool = False) -> Self:
@@ -57,11 +61,9 @@ class Barrel:
     return self
 
   def set_gap(self, gap: float | None) -> Self:
-    self.startDistance = gap
+    self.gap = gap
     return self
 
   def set_offset(self, offset: float | None) -> Self:
     self.offset = offset
     return self
-
-  

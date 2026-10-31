@@ -1,15 +1,22 @@
-from diep_factory.barrel import Barrel
-import rich
-from pydantic import ValidationError
+import time
 from typing import Self
 
+import rich
+from rich.progress import Progress, track
+
+from diep_factory.barrel import Barrel
+from diep_factory.tank import Tank
 from diep_factory.types.base import DiepPackModel
 from diep_factory.types.boss import BossModel
 from diep_factory.types.shape import ShapeModel
-from diep_factory.types.shared import BarrelModel
-from diep_factory.types.tank import TankModel
 
 DIEP_PACK_FORMAT_VERSION = 2
+
+__all__ = [
+    "Barrel",
+    "DiepPack",
+    "Tank"
+]
 
 class DiepPack:
     def __init__(self, name: str = "Unnamed Pack", author: str = "Unknown Author"):
@@ -19,53 +26,36 @@ class DiepPack:
         self.shapes: list[ShapeModel] = []
         self.bosses: list[BossModel] = []
 
-        self.id_counter = {
-            "tank": 0,
-            "shapes": 0,
-            "bosses": 0,
-        }
-
     def build(self, indent: int | None = None) -> str:
         """Builds the pack and returns it as a JSON string."""
+
+        rich.print(f"\n[cyan]Building [bright_cyan]'{self.name}' [cyan]by [bright_cyan]'{self.author}'\n")
+
+        with Progress() as tank_progress:
+            tanks = []
+            tank_count = len(self.tanks)
+            
+            current_tank = tank_progress.add_task("[cyan]Building...", total=tank_count)
+
+            for (index, tank) in enumerate(self.tanks):
+                has_id = f" (ID {tank.id})" if tank.id else ""
+                tank_progress.update(current_tank, description=f"[cyan]Building tank: [bright_cyan]{tank.name}[dim]{has_id} ({index+1}/{tank_count})")
+                tanks.append(tank.build())
+                tank_progress.update(current_tank, advance=1)
+
         diep_pack = DiepPackModel(
             version = DIEP_PACK_FORMAT_VERSION,
             name = self.name,
             author = self.author,
-            tanks = [tank.build() for tank in self.tanks],
+            tanks = tanks,
             shapes = self.shapes,
             bosses = self.bosses
         )
+
+        rich.print(f"\n[green]Successfully built [bright_green]'{self.name}' [green]by [bright_green]'{self.author}'\n")
 
         return diep_pack.model_dump_json(indent=indent, exclude_none=True)
 
     def add_tanks(self, *tanks: Tank) -> Self:
         self.tanks += tanks
-        return self
-
-class Tank:
-    def __init__(self, id: int | None = None, name: str = "Unnamed Tank"):
-        self.id = id
-        self.name = name
-        self.barrels: list[Barrel] = []
-
-    def build(self) -> TankModel:
-        """Builds the tank and returns it as a Pydantic Model."""
-
-        barrels: list[BarrelModel] = []
-        for (index, barrel) in enumerate(self.barrels):
-            try:
-                barrels.append(barrel.build())
-            except ValidationError as err:
-                has_id = f" (ID: {self.id})" if self.id is not None else ""
-                rich.print(f"\n[red]Error whilst building tank [cyan]'{self.name}'{has_id} [red]on [cyan]barrel {index}:\n")
-                raise SystemExit(err)
-
-        return TankModel(
-            id = self.id,
-            name = self.name,
-            barrels = barrels
-        )
-
-    def add_barrels(self, *barrels: Barrel) -> Self:
-        self.barrels += barrels
         return self

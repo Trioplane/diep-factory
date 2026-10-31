@@ -1,21 +1,21 @@
-import random
-import math
-
+from pathlib import Path
 from diep_factory import Barrel, DiepPack, Tank
 
-barrel_count = 26
-TestingTank = Tank(name="Testing Tank").add_barrels(*[
-  Barrel(
-    length = random.uniform(10, 80),
-    width_at_base = random.uniform(0.1, 1),
-    width_at_tip = random.uniform(0.1, 1),
-    gap = random.uniform(0, 100),
-    offset = random.uniform(0, 200),
-    angle = random.uniform(-180, 180)
-  ) for i in range(barrel_count)
+MyDiepPack = DiepPack(name="my diep pack", author="Generated with diep-factory")
+
+tank_count = 26
+MyDiepPack.add_tanks(*[
+  Tank(name=f"Tank {i}")
+    .add_barrels(
+      *[
+        Barrel(length=80,angle=(360/tank_count)*j)
+        for j in range(i)
+      ]
+    )
+  for i in range(tank_count)
 ])
 
-MyDiepPack = DiepPack(name="my diep pack", author="Generated with diep-factory")
-MyDiepPack.add_tanks(TestingTank)
+output_path = Path(__file__).resolve().parent / "output.diep-pack"
 
-print(MyDiepPack.build())
+output_path.touch()
+output_path.write_text(MyDiepPack.build(indent=2), encoding='utf8')

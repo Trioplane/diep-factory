@@ -1,7 +1,7 @@
 import math
 from typing import Annotated, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 
 class TankBodyModel(BaseModel):
